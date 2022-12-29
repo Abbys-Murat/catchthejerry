@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atilsamancioglu.catchthejerry"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[io.dfinery:android-sdk:2.3.1.9] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\e4d9dd5061d4cad62212fab70903c8a7\android-sdk-2.3.1.9\AndroidManifest.xml:9:5-11:15
+12        <package android:name="com.igaworks.adbrixrm.debug" />
+12-->[io.dfinery:android-sdk:2.3.1.9] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\e4d9dd5061d4cad62212fab70903c8a7\android-sdk-2.3.1.9\AndroidManifest.xml:10:9-63
+12-->[io.dfinery:android-sdk:2.3.1.9] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\e4d9dd5061d4cad62212fab70903c8a7\android-sdk-2.3.1.9\AndroidManifest.xml:10:18-60
+13    </queries>
+14
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Google Mobile Ads to run -->
+15-->[com.android.installreferrer:installreferrer:2.2] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\a06935b727bb19a3fec951264f41264b\installreferrer-2.2\AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:2.2] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\a06935b727bb19a3fec951264f41264b\installreferrer-2.2\AndroidManifest.xml:9:22-107
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:23:5-67
+16-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:23:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:24:22-76
+18
+19    <application
+19-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:5:5-19:19
+20        android:allowBackup="true"
+20-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+21-->[com.android.support:support-compat:28.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\423f55f9a3c2df55f7251a606d0b4237\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:8:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:11:9-40
+30        <activity
+30-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:12:9-18:20
+31            android:name="com.kaanyuksel.catchthejerry.MainActivity"
+31-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:12:19-47
+32            android:exported="true" >
+32-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:12:48-71
+33            <intent-filter>
+33-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:13:13-17:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:14:17-69
+34-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:14:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:16:17-77
+36-->C:\Users\Kaan\Desktop\catchthejerry\app\src\main\AndroidManifest.xml:16:27-74
+37            </intent-filter>
+38        </activity>
+39        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+40        <activity
+40-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:29:9-33:64
+41            android:name="com.google.android.gms.ads.AdActivity"
+41-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:30:13-65
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+42-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:31:13-122
+43            android:exported="false"
+43-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:32:13-37
+44            android:theme="@android:style/Theme.Translucent" />
+44-->[com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\18288f08248619abb48dfc199579be5b\play-services-ads-lite-15.0.0\AndroidManifest.xml:33:13-61
+45
+46        <meta-data
+46-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\d9cf0ff876328bfa4e8029126a9ae137\play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+47            android:name="com.google.android.gms.version"
+47-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\d9cf0ff876328bfa4e8029126a9ae137\play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+48            android:value="@integer/google_play_services_version" /> <!-- ↓↓↓ enabled, exported 추가↓↓↓ -->
+48-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\d9cf0ff876328bfa4e8029126a9ae137\play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+49        <receiver
+49-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:23:9-32:20
+50            android:name="com.pci.beacon.startup.StartupBroadcastReceiver"
+50-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:24:13-75
+51            android:enabled="true"
+51-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:25:13-35
+52            android:exported="false" >
+52-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:26:13-37
+53            <intent-filter>
+53-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:27:13-31:29
+54                <action android:name="android.intent.action.BOOT_COMPLETED" />
+54-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:28:17-79
+54-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:28:25-76
+55                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+55-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:29:17-87
+55-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:29:25-84
+56                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+56-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:30:17-90
+56-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:30:25-87
+57            </intent-filter>
+58        </receiver>
+59
+60        <service
+60-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:34:9-39:38
+61            android:name="com.pci.beacon.service.BeaconService"
+61-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:35:13-64
+62            android:enabled="true"
+62-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:36:13-35
+63            android:exported="false"
+63-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:37:13-37
+64            android:isolatedProcess="false"
+64-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:38:13-44
+65            android:label="beacon" />
+65-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:39:13-35
+66        <service
+66-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:40:9-43:40
+67            android:name="com.pci.beacon.BeaconIntentProcessor"
+67-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:41:13-64
+68            android:enabled="true"
+68-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:42:13-35
+69            android:exported="false" /> <!-- ↓↓↓ enabled, exported 추가↓↓↓ -->
+69-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:43:13-37
+70        <service
+70-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:46:9-57:19
+71            android:name="com.pci.beacon.service.ScanJob"
+71-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:47:13-58
+72            android:enabled="true"
+72-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:48:13-35
+73            android:exported="false"
+73-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:49:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" >
+74-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:50:13-69
+75            <meta-data
+75-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:51:13-53:45
+76                android:name="immediateScanJobId"
+76-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:52:17-50
+77                android:value="208352939" />
+77-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:53:17-42
+78            <meta-data
+78-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:54:13-56:45
+79                android:name="periodicScanJobId"
+79-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:55:17-49
+80                android:value="208352940" />
+80-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:56:17-42
+81        </service> <!-- ↓↓↓ enabled, exported 추가↓↓↓ -->
+82        <service
+82-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:60:9-68:19
+83            android:name="com.pci.bluetooth.BluetoothTestJob"
+83-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:61:13-62
+84            android:enabled="true"
+84-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:62:13-35
+85            android:exported="false"
+85-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:63:13-37
+86            android:permission="android.permission.BIND_JOB_SERVICE" >
+86-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:64:13-69
+87            <meta-data
+87-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:65:13-67:46
+88                android:name="jobId"
+88-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:66:17-37
+89                android:value="1799803768" />
+89-->[io.github.tvtechservice:tvservice-library:2.0.13] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\239b8f7c9a7b0005ca687f58f677e972\tvservice-library-2.0.13\AndroidManifest.xml:67:17-43
+90        </service>
+91
+92        <meta-data
+92-->[com.android.support:customtabs:26.1.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\891b8d9f852d5a41023bb74e65019a95\customtabs-26.1.0\AndroidManifest.xml:23:9-25:38
+93            android:name="android.support.VERSION"
+93-->[com.android.support:customtabs:26.1.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\891b8d9f852d5a41023bb74e65019a95\customtabs-26.1.0\AndroidManifest.xml:24:13-51
+94            android:value="26.1.0" />
+94-->[com.android.support:customtabs:26.1.0] C:\Users\Kaan\.gradle\caches\transforms-2\files-2.1\891b8d9f852d5a41023bb74e65019a95\customtabs-26.1.0\AndroidManifest.xml:25:13-35
+95    </application>
+96
+97</manifest>

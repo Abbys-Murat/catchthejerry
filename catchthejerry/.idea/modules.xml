@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catchthejerry.iml" filepath="$PROJECT_DIR$/.idea/modules/catchthejerry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catchthejerry.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
